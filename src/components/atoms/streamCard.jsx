@@ -13,6 +13,10 @@ export const StreamCard = (props) => {
 
 const StyledStreamCard = styled.div`
 margin-left:30px;
+&:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
 `
 
 const SP =styled.p`

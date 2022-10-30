@@ -5,7 +5,6 @@ import Link from 'next/link'
 export const SideBar = () => {
   return (
     <ContainerDiv>
-      {/* <section className="sidebar-topics"> */}
         <SideBarItem>
         <Link href="/">
           <span>Home</span>
@@ -21,20 +20,16 @@ export const SideBar = () => {
           <span>My Fav</span>
         </Link>
         </SideBarItem>
-      {/* </section> */}
 
-      {/* your library */}
       <SideBarLibraryDiv>
         <SideBarLibraryH4>Suisei Library</SideBarLibraryH4>
         <SideBarItem>
           <Link href="/collabSongsPage">
-            {/* <FontAwesomeIcon className="icon" icon={faUser} /> */}
             <span>Colab songs</span>
           </Link>
           </SideBarItem>
           <SideBarItem>
           <Link href="/originalSongsPage">
-            {/* <FontAwesomeIcon className="icon" icon={faRecordVinyl} /> */}
             <span>Original songs</span>
           </Link>
           </SideBarItem>
@@ -42,32 +37,17 @@ export const SideBar = () => {
           <Link
             href="/coverSongsPage"
           >
-            {/* <FontAwesomeIcon className="icon" icon={faMusic} /> */}
             <span>Cover songs</span>
           </Link>
         </SideBarItem>
       </SideBarLibraryDiv>
       </ContainerDiv>
-      // {/* Footer on mobile */}
-      // <section className="sidebar-mobile">
-      //   <Link href="/">
-      //     <span>Home</span>
-      //   </Link>
-
-      //   <Link
-      //     href="/myFavPage"
-      //   >
-      //     <span>My Fav</span>
-      //   </Link>
-      // </section>
   );
 };
 
 const ContainerDiv=styled.div`
 grid-area: sidebar;
 padding: 50px 32px;
-/* min-width: 150px;
-max-width: 200px; */
 height: 100%; /* Full-height: remove this if you want "auto" height */
 width: 160px; /* Set the width of the sidebar */
 position: fixed;

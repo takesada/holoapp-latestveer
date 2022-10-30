@@ -1,11 +1,8 @@
 import { useState } from "react";
-// import AdditionSettings from "./components/additionalInfo";
 import CollabRadioStations from "../src/components/atoms/collabRadioStation.jsx";
-// import github from "./images/github.png";
 import play from "../public/imgs/playbuttonwhite.png";
 import AudioControls from "../src/components/atoms/audioControl.jsx";
 import pauseImg from "../public/imgs/media-pause-button.png";
-// import { motion } from "framer-motion";
 import ReactPlayer from "react-player";
 import styled from 'styled-components'
 import Link from "next/link.js";
@@ -13,7 +10,7 @@ import Head from "next/head.js";
 
 
 const ColabSongsPage=()=> {
-  const [BtnClass, setBtnClass] = useState("PlayPause"); //pause play change
+  const [BtnClass, setBtnClass] = useState("PlayPause");
   const [BtnClass2, setBtnClass2] = useState("playBtn");
   const [playPauseImg, setPlayPause] = useState(play);
 
@@ -65,9 +62,6 @@ const ColabSongsPage=()=> {
   const OutOfFrame  = () => {
     setVideo("https://youtu.be/WFWw821wozI");
     setStationName("Ambient Renders");
-    // setYoutubeChannal(
-    //   "https://www.youtube.com/channel/UCXbXfisDHV_gDjawCKTyTIw"
-    // );
     setLivestream(
       "https://youtu.be/D9699zGTOBk?start=1m33s"
     );
@@ -82,7 +76,6 @@ const ColabSongsPage=()=> {
   const CapSule = () => {
     setVideo("https://youtu.be/VPBqpyub4Kc");
     setStationName("AnimeVibe");
-    // setYoutubeChannal("https://www.youtube.com/c/AnimeVibe");
     setLivestream(
       "https://youtu.be/M85xU-tbQ6c"
     );
@@ -96,7 +89,6 @@ const ColabSongsPage=()=> {
   const HaiiroToAo = () => {
     setVideo("https://youtu.be/899x5rU9mX8");
     setStationName("Chilled Cow");
-    // setYoutubeChannal("https://www.youtube.com/c/LofiGirl");
     setLivestream(
       "https://youtu.be/0firv69LkgI"
     );
@@ -111,7 +103,6 @@ const ColabSongsPage=()=> {
   const Cinema = () => {
     setVideo("https://youtu.be/XD1t7JHbge0");
     setStationName("ChillHop Music");
-    // setYoutubeChannal("https://www.youtube.com/c/Chillhopdotcom/videos");
     setLivestream(
       "https://youtu.be/UXQDUhSr8nU"
     );
@@ -126,7 +117,6 @@ const ColabSongsPage=()=> {
   const SAIKAI  = () => {
     setVideo("https://youtu.be/x_PCBmDGfrc");
     setStationName("Chilled Cow");
-    // setYoutubeChannal("https://www.youtube.com/c/LofiGirl");
     setLivestream(
       "https://youtu.be/NKQvH78Jv04"
     );

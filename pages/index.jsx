@@ -52,7 +52,6 @@ const Home = () => {
 
           <Link href="/singingStreamPage">
             <TopPageCards
-              // onClick={()=>navigate("/singingStream")}
               content={"Suisei's Song →"}
               detailContent={
                 "You can listen to the music that Suisei sang in the streaming of live broadcast ."

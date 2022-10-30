@@ -60,8 +60,6 @@ const CollabRadioStations = ({
           <SP>SAIKAI</SP>
         </motion.div>
       </motion.div>
-      {/* <StyledMotionDiv> */}
-      {/* </StyledMotionDiv> */}
     </RadioList>
   );
 };
@@ -75,9 +73,4 @@ const RadioList=styled.div`
 
 const SP=styled.p`
 margin:5 auto;`
-// const StyledMotionDiv=styled.div`
-//   &:hover {
-//     color: blue;
-//     cursor: pointer;}
-// `
 export default CollabRadioStations;

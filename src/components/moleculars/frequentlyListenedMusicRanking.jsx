@@ -33,15 +33,4 @@ export const FrequentlyListenedMusicRanking =()=>{
 const RecommendationDiv=styled.div`
 margin-left:160px;
 display:flex;
-/* overflow-x: scroll;
-&::-webkit-scrollbar {
-  height: 14px; 
-}
-&::-webkit-scrollbar-thumb {
-  background: white; 
-  border-radius: 7px;}
-&::-webkit-scrollbar-track {
-  background: #878585; 
-  border-radius: 7px; 
-} */
 `

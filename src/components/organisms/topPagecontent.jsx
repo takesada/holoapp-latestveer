@@ -12,8 +12,6 @@ export const TopPageContent = () => {
   );
 };
 
-// export default TopPageContent;
-
 const TopHeader = styled.h1`
   margin: 0;
   line-height: 1.15;

@@ -1,11 +1,8 @@
 import { useState } from "react";
-// import AdditionSettings from "./components/additionalInfo";
 import CoverRadioStations from "../src/components/atoms/coverRadioStation.jsx";
-// import github from "./images/github.png";
 import play from "../public/imgs/playbuttonwhite.png";
 import AudioControls from "../src/components/atoms/audioControl.jsx";
 import pauseImg from "../public/imgs/media-pause-button.png";
-// import { motion } from "framer-motion";
 import ReactPlayer from "react-player";
 import styled from 'styled-components'
 import Link from "next/link.js";
@@ -65,9 +62,6 @@ const CoverSongsPage=()=> {
   const Tricologe = () => {
     setVideo("https://youtu.be/WFWw821wozI");
     setStationName("Ambient Renders");
-    // setYoutubeChannal(
-    //   "https://www.youtube.com/channel/UCXbXfisDHV_gDjawCKTyTIw"
-    // );
     setLivestream(
       "https://youtu.be/Rc_-keez4xs"
     );
@@ -82,7 +76,6 @@ const CoverSongsPage=()=> {
   const GhostCityTokyo = () => {
     setVideo("https://youtu.be/VPBqpyub4Kc");
     setStationName("AnimeVibe");
-    // setYoutubeChannal("https://www.youtube.com/c/AnimeVibe");
     setLivestream(
       "https://youtu.be/tuZty35Fk7M"
     );
@@ -96,7 +89,6 @@ const CoverSongsPage=()=> {
   const Lower = () => {
     setVideo("https://youtu.be/899x5rU9mX8");
     setStationName("Chilled Cow");
-    // setYoutubeChannal("https://www.youtube.com/c/LofiGirl");
     setLivestream(
       "https://youtu.be/1KUZHKI-BDk"
     );
@@ -111,7 +103,6 @@ const CoverSongsPage=()=> {
   const Phony = () => {
     setVideo("https://youtu.be/XD1t7JHbge0");
     setStationName("ChillHop Music");
-    // setYoutubeChannal("https://www.youtube.com/c/Chillhopdotcom/videos");
     setLivestream(
       "https://youtu.be/N029UUlH1Dc"
     );
@@ -126,7 +117,6 @@ const CoverSongsPage=()=> {
   const CryBaby   = () => {
     setVideo("https://youtu.be/x_PCBmDGfrc");
     setStationName("Chilled Cow");
-    // setYoutubeChannal("https://www.youtube.com/c/LofiGirl");
     setLivestream(
       "https://youtu.be/7wbd6ffvXm8"
     );

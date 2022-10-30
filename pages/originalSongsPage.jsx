@@ -1,11 +1,8 @@
 import { useState } from "react";
-// import AdditionSettings from "./components/additionalInfo";
 import RadioStations from "../src/components/atoms/radioStations.jsx";
-// import github from "./images/github.png";
 import play from "../public/imgs/playbuttonwhite.png";
 import AudioControls from "../src/components/atoms/audioControl.jsx";
 import pauseImg from "../public/imgs/media-pause-button.png";
-// import { motion } from "framer-motion";
 import ReactPlayer from "react-player";
 import styled from 'styled-components'
 import Link from "next/link.js";
@@ -65,9 +62,6 @@ const OriginalSongsPage=()=> {
   const StellerSteller = () => {
     setVideo("https://youtu.be/WFWw821wozI");
     setStationName("Ambient Renders");
-    // setYoutubeChannal(
-    //   "https://www.youtube.com/channel/UCXbXfisDHV_gDjawCKTyTIw"
-    // );
     setLivestream(
       "https://www.youtube.com/watch?v=a51VH9BYzZA"
     );
@@ -82,7 +76,6 @@ const OriginalSongsPage=()=> {
   const kakero = () => {
     setVideo("https://youtu.be/VPBqpyub4Kc");
     setStationName("AnimeVibe");
-    // setYoutubeChannal("https://www.youtube.com/c/AnimeVibe");
     setLivestream(
       "https://youtu.be/IqT6cHCT1TE"
     );
@@ -96,7 +89,6 @@ const OriginalSongsPage=()=> {
   const GHOST = () => {
     setVideo("https://youtu.be/899x5rU9mX8");
     setStationName("Chilled Cow");
-    // setYoutubeChannal("https://www.youtube.com/c/LofiGirl");
     setLivestream(
       "https://youtu.be/IKKar5SS29E"
     );
@@ -111,7 +103,6 @@ const OriginalSongsPage=()=> {
   const template = () => {
     setVideo("https://youtu.be/XD1t7JHbge0");
     setStationName("ChillHop Music");
-    // setYoutubeChannal("https://www.youtube.com/c/Chillhopdotcom/videos");
     setLivestream(
       "https://youtu.be/mBuHQeL-OO8"
     );
@@ -126,7 +117,6 @@ const OriginalSongsPage=()=> {
   const NextColorPlanet  = () => {
     setVideo("https://youtu.be/x_PCBmDGfrc");
     setStationName("Chilled Cow");
-    // setYoutubeChannal("https://www.youtube.com/c/LofiGirl");
     setLivestream(
       "https://youtu.be/vQHVGXdcqEQ"
     );
