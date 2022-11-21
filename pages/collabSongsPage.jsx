@@ -258,6 +258,7 @@ text-align:center;
 font-size: 20px;
 &:hover {
     cursor: pointer;
-    color: #2dcde4;}
+    color: #2dcde4;
+  }
 `
 export default ColabSongsPage;

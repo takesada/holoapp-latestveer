@@ -72,5 +72,9 @@ const RadioList=styled.div`
   margin-right: 3px;`
 
 const SP=styled.p`
-margin:5 auto;`
+margin:5 auto;
+&:hover {
+    cursor: pointer;
+    color: #2dcde4;
+  }`
 export default CollabRadioStations;
