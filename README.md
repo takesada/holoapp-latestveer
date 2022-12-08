@@ -32,3 +32,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+このアプリケーションは「星街すいせい」というvtuberのオリジナル曲を聴くことができるほか、生放送のアーカイブから雑談部分を除き、曲の部分だけを抽出することで忙しくてアーカイブをすべて見ることができない方でも好きなvtuberが歌っている曲のみを効率よく楽しむことができるアプリとなっております。
